@@ -16,12 +16,12 @@ if(value >= a){
 	value = 9;
 }
 
-// step 4
+// step 3
 for(var i = 0; i < 3; i++){
 	value++;
 }
 
-// step 5
+// step 4
 var b = 2;
 
 while(b < 10){
@@ -29,7 +29,7 @@ while(b < 10){
 	b++;
 }
 
-// step 6
+// step 5
 b = 0;
 
 while (b < 2){
@@ -37,18 +37,18 @@ while (b < 2){
 	b++;
 }
 
-// step 7
+// step 6
 while (b < 4){
 	value++;
 	b++;
 }
 
-// step 8
+// step 7
 for(i = 0; i < 7; i++){
 	value += 3;
 }
 
-// step 9
+// step 8
 var c = "97";
 
 //what is value + c?
