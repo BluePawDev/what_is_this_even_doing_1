@@ -3,18 +3,18 @@
 var value = 0;
 
 //step 1
-value = augmentA(value);
+value = updateA(value);
 
 //step 2
-for(var i = 0; i < 5; i++){
+for(var i = 0; i < 5; i+=2){
 	value = value * i;
 }
 
 //step 3
-value = augmentB(value + 2);
+value = updateB(value + 4);
 
 //step 4
-var a = 46;
+var a = 67;
 
 value = value + (a * a);
 
@@ -31,15 +31,15 @@ var b = a + 43;
 value += b;
 
 //step 7
-var c = "89";
+var c = "01";
 
-function augmentA(val){
+function updateA(val){
 	val += 5;
 	val = val * val;
 	return val;
 }
 
-function augmentB(val){
+function updateB(val){
 	val = augmentA(val) * 2;
 	val -= 3;
 	return val;
