@@ -3,7 +3,7 @@
 var value = 0;
 
 // step 1
-if(value > 0){
+if(value >= 0){
 	value = 8;
 } else {
 	value = 10;
@@ -25,16 +25,14 @@ console.log(value);
 a = 3;
 
 while(a > 0){
-	value = augmentA(value + i);
+	value = updateA(value + i);
 	a--;
 }
-
-
 
 console.log(value);
 
 // step 4
-if(value > 25){
+if(value > 25 && a === 0){
 	value = 2;
 } else {
 	value = 1;
@@ -54,9 +52,9 @@ console.log(value);
 // step 6
 var b = "25";
 
-augmentB(value);
+updateB(value);
 
-function augmentA(val){
+function updateA(val){
 	if(val > 5){
 		val *= 2;
 	} else {
@@ -66,7 +64,7 @@ function augmentA(val){
 	return val;
 }
 
-function augmentB(val){
+function updateB(val){
 	var i = 0;
 	while(i < 3){
 		val += i;
