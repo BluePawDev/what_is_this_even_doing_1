@@ -3,10 +3,10 @@
 var value = 0;
 
 //step 1
-if(value == 0){
+if(value === 0){
 	value = 5;
 } else {
-	value = 50;
+	value = 43;
 }
 
 //step 2
@@ -18,22 +18,22 @@ while(a < 5){
 }
 
 //step 3
-if(value < 7){
+if(value <= 7){
 	augmentA(value);
 } else {
 	value = augmentA(value + 2);
 }
 
 //step 4
-var b = 89;
+var b = 72;
 
 value += b;
 
 //step 5
 var i = 0;
 
-for(i = 5; i < 7; i++){
-	value -= 9;
+for(i = 5; i < 12; i++){
+	value -= 3;
 }
 
 //step 6
@@ -43,17 +43,17 @@ while(i > 0){
 }
 
 //step 7
-var c = 98;
+var c = 27;
 
 var d = 1;
 
 value = value + c + d;
 
-function augmentA(val){
+function updateA(val){
 	for(var i = 0; i < 8; i++){
 		val *= 2;
 	}
-	val += 12;
+	val += 9;
 	return val;
 }
 
