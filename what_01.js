@@ -5,12 +5,12 @@ var value = 0;
 var a = "4";
 
 // step 1
-for(var i = 3; i < 5; i++){
+for(var i = 5; i < 10; i++){
 	value++;
 }
 
 // step 2
-if(value >= a){
+if(value >= a || value <= 10){
 	value = 1;
 } else {
 	value = 9;
@@ -38,7 +38,7 @@ while (b < 2){
 }
 
 // step 6
-while (b < 4){
+while (b <= 4){
 	value++;
 	b++;
 }
@@ -49,7 +49,7 @@ for(i = 0; i < 7; i++){
 }
 
 // step 8
-var c = "97";
+var c = "23";
 
 //what is value + c?
 console.log(value + c);
