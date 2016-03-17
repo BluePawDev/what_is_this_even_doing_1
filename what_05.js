@@ -11,16 +11,16 @@ while(i > 5){
 }
 
 //step 2
-if(value > 60){
+if(value >= 60){
 	value = 6;
 } else {
 	value = 5;
 }
 
 //step 3
-var a = 92;
-var b = 41;
-var c = 37;
+var a = 63;
+var b = 26;
+var c = 86;
 
 a = a + (b - c);
 
@@ -32,18 +32,18 @@ for(i = i; i > 0; i--){
 }
 
 //step 5
-value = augmentA(value);
+value = updateA(value);
 
 //step 6
-b = augmentA(c - 7);
-b = (b/100);
+b = updateA(c - 7);
+b = (b / 100);
 
 for(i = 0; i < 6; i++){
 	value += b;
 }
 
 //step 7
-i = 3;
+i = 6;
 
 while(i > 0){
 	value -= 2;
@@ -51,10 +51,10 @@ while(i > 0){
 }
 
 //step 8
-value = value - 9200;
-var d = "856";
+value = value - 230;
+var d = "123";
 
-function augmentA(val){
+function updateA(val){
 	val = val * val;
 	return val;
 }
