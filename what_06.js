@@ -3,9 +3,9 @@
 var value = 0;
 
 //step 1
-var i = 25;
+var i = 13;
 
-while(i > 16){
+while(i > 6){
 	value += 6;
 	i--;
 }
@@ -13,7 +13,7 @@ while(i > 16){
 console.log(value);
 
 //step 2
-while(i > 8){
+while(i >= 8){
 	value -= 2;
 	i--;
 }
@@ -34,23 +34,23 @@ while(i > 0){
 console.log(value);
 
 //step 5
-if(value > 35){
-	value = 35;
+if(value > 23){
+	value = 23;
 } else {
 	value = 0;
 }
 console.log(value);
 
 //step 6
-for(i = 0; i < 8; i++){
+for(i = 0; i <11; i++){
 	value++;
 }
 console.log(value);
 
 //step 7
-var a = "41";
+var a = "24";
 
-function augmentA(val){
+function updateA(val){
 	val += (val * 2);
 	val -= 8;
 	return val;
