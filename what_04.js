@@ -40,7 +40,7 @@ function updateA(val){
 }
 
 function updateB(val){
-	val = augmentA(val) * 2;
+	val = updateA(val) * 2;
 	val -= 3;
 	return val;
 }
