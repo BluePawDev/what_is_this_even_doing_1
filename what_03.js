@@ -17,10 +17,10 @@ var a = 0;
 while(a < 5){
 	value++;
 	a++;
+	console.log("step 2 loop - a:", a, "value:", value);
 }
 
 console.log("value after step 2: ", value);
-
 
 //step 3
 if(value <= 7){
@@ -43,6 +43,7 @@ var i = 0;
 
 for(i = 5; i < 12; i++){
 	value -= 3;
+	console.log("step 5 loop - i:", i, "value:", value);
 }
 
 console.log("value after step 5: ", value);
@@ -51,6 +52,7 @@ console.log("value after step 5: ", value);
 while(i > 0){
 	value++;
 	i--;
+	console.log("step 6 loop - i:", i, "value:", value);
 }
 
 console.log("value after step 6: ", value);

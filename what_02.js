@@ -17,6 +17,7 @@ var a = 0;
 while(a > 5){
 	value++;
 	a++;
+	console.log("step 2 loop - a:", a, "value:", value);
 }
 
 console.log("value after step 2: ", value);
@@ -27,6 +28,7 @@ a = 3;
 while(a > 0){
 	value = updateA(value + i);
 	a--;
+	console.log("step 3 loop - a:", a, "value:", value);
 }
 
 console.log("value after step 3: ", value);
@@ -45,6 +47,7 @@ var i = 0;
 
 for(i = 0; i < 7; i++){
 	value *= 3;
+	console.log("step 5 loop - i:", i, "value:", value);
 }
 
 console.log("value after step 5: ", value);

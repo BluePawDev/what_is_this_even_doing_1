@@ -10,6 +10,7 @@ console.log("value after step 1: ", value);
 //step 2
 for(var i = 0; i < 5; i+=2){
 	value = value * i;
+	console.log("step 2 loop - i:", i, "value:", value);
 }
 
 console.log("value after step 2: ", value);
@@ -31,6 +32,7 @@ console.log("value after step 4: ", value);
 //step 5
 for(i = 0; i < 9; i++){
 	value--;
+	console.log("step 5 loop - i:", i, "value:", value);
 }
 
 console.log("value after step 5: ", value);
