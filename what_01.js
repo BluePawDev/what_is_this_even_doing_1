@@ -9,6 +9,8 @@ for(var i = 5; i < 10; i++){
 	value++;
 }
 
+console.log("value after step 1: ", value);
+
 // step 2
 if(value >= a || value <= 10){
 	value = 1;
@@ -16,10 +18,14 @@ if(value >= a || value <= 10){
 	value = 9;
 }
 
+console.log("value after step 2: ", value);
+
 // step 3
 for(var i = 0; i < 3; i++){
 	value++;
 }
+
+console.log("value after step 3: ", value);
 
 // step 4
 var b = 2;
@@ -29,6 +35,8 @@ while(b < 10){
 	b++;
 }
 
+console.log("value after step 4: ", value);
+
 // step 5
 b = 0;
 
@@ -37,19 +45,27 @@ while (b < 2){
 	b++;
 }
 
+console.log("value after step 5: ", value);
+
 // step 6
 while (b <= 4){
 	value++;
 	b++;
 }
 
+console.log("value after step 6: ", value);
+
 // step 7
 for(i = 0; i < 7; i++){
 	value += 3;
 }
 
+console.log("value after step 7: ", value);
+
 // step 8
 var c = "23";
 
+console.log("value after step 8: ", value);
+
 //what is value + c?
-console.log(value + c);
+console.log("Final value + c:", value + c);
