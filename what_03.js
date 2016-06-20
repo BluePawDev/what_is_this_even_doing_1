@@ -19,9 +19,9 @@ while(a < 5){
 
 //step 3
 if(value <= 7){
-	augmentA(value);
+	updateA(value);
 } else {
-	value = augmentA(value + 2);
+	value = updateA(value + 2);
 }
 
 //step 4
