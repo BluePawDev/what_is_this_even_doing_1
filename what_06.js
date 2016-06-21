@@ -21,7 +21,7 @@ console.log(value);
 
 //step 3
 while(i < 10){
-	value = augmentA(value); 
+	value = updateA(value); 
 	i++;
 }
 console.log(value);
