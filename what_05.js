@@ -10,12 +10,16 @@ while(i > 5){
 	i--;
 }
 
+console.log("value after step 1: ", value);
+
 //step 2
 if(value >= 60){
 	value = 6;
 } else {
 	value = 5;
 }
+
+console.log("value after step 2: ", value);
 
 //step 3
 var a = 63;
@@ -26,13 +30,19 @@ a = a + (b - c);
 
 value += a;
 
+console.log("value after step 3: ", value);
+
 //step 4
 for(i = i; i > 0; i--){
 	value--;
 }
 
+console.log("value after step 4: ", value);
+
 //step 5
 value = updateA(value);
+
+console.log("value after step 5: ", value);
 
 //step 6
 b = updateA(c - 7);
@@ -42,6 +52,8 @@ for(i = 0; i < 6; i++){
 	value += b;
 }
 
+console.log("value after step 6: ", value);
+
 //step 7
 i = 6;
 
@@ -49,6 +61,8 @@ while(i > 0){
 	value -= 2;
 	i--;
 }
+
+console.log("value after step 7: ", value);
 
 //step 8
 value = value - 230;
@@ -59,5 +73,7 @@ function updateA(val){
 	return val;
 }
 
+console.log("value after step 8: ", value);
+
 //What is value + d?
-console.log(value + d);
+console.log("Final value + d", value + d);

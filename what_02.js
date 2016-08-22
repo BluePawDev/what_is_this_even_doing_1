@@ -9,7 +9,7 @@ if(value >= 0){
 	value = 10;
 }
 
-console.log(value);
+console.log("value after step 1: ", value);
 
 // step 2
 var a = 0;
@@ -19,7 +19,7 @@ while(a > 5){
 	a++;
 }
 
-console.log(value);
+console.log("value after step 2: ", value);
 
 // step 3
 a = 3;
@@ -29,7 +29,7 @@ while(a > 0){
 	a--;
 }
 
-console.log(value);
+console.log("value after step 3: ", value);
 
 // step 4
 if(value > 25 && a === 0){
@@ -38,7 +38,7 @@ if(value > 25 && a === 0){
 	value = 1;
 }
 
-console.log(value);
+console.log("value after step 4: ", value);
 
 // step 5
 var i = 0;
@@ -47,12 +47,14 @@ for(i = 0; i < 7; i++){
 	value *= 3;
 }
 
-console.log(value);
+console.log("value after step 5: ", value);
 
 // step 6
 var b = "25";
 
 updateB(value);
+
+console.log("value after step 6: ", value);
 
 function updateA(val){
 	if(val > 5){
@@ -60,7 +62,7 @@ function updateA(val){
 	} else {
 		val += val;
 	}
-	
+
 	return val;
 }
 
@@ -74,4 +76,4 @@ function updateB(val){
 }
 
 //what is value + b?
-console.log(value + b);
+console.log("Final value + b: ", value + b);
