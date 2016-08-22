@@ -25,6 +25,9 @@ console.log("value after step 2: ", value);
 // step 3
 a = 3;
 
+// var i = 0;
+console.log("i here", i);
+
 while(a > 0){
 	value = updateA(value + i);
 	a--;

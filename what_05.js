@@ -11,7 +11,7 @@ while(i > 5){
 	console.log("step 1 loop - i:", i, "value:", value);
 }
 
-console.log("value after step 1: ", value);
+console.log("value after step 1: ", value); //60
 
 //step 2
 if(value >= 60){
@@ -20,7 +20,7 @@ if(value >= 60){
 	value = 5;
 }
 
-console.log("value after step 2: ", value);
+console.log("value after step 2: ", value); //6
 
 //step 3
 var a = 63;
@@ -31,7 +31,7 @@ a = a + (b - c);
 
 value += a;
 
-console.log("value after step 3: ", value);
+console.log("value after step 3: ", value); //9
 
 //step 4
 for(i = i; i > 0; i--){
@@ -39,12 +39,12 @@ for(i = i; i > 0; i--){
 	console.log("step 4 loop - i:", i, "value:", value);
 }
 
-console.log("value after step 4: ", value);
+console.log("value after step 4: ", value); //-1
 
 //step 5
 value = updateA(value);
 
-console.log("value after step 5: ", value);
+console.log("value after step 5: ", value); //1
 
 //step 6
 b = updateA(c - 7);
@@ -55,7 +55,7 @@ for(i = 0; i < 6; i++){
 	console.log("step 6 loop - i:", i, "value:", value);
 }
 
-console.log("value after step 6: ", value);
+console.log("value after step 6: ", value); //375.46
 
 //step 7
 i = 6;
@@ -66,7 +66,7 @@ while(i > 0){
 	console.log("step 7 loop - i:", i, "value:", value);
 }
 
-console.log("value after step 7: ", value);
+console.log("value after step 7: ", value); //363.46
 
 //step 8
 value = value - 230;
@@ -80,4 +80,4 @@ function updateA(val){
 console.log("value after step 8: ", value);
 
 //What is value + d?
-console.log("Final value + d", value + d);
+console.log("Final value + d: ", value + d); //"133.46123"
